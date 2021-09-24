@@ -25,10 +25,13 @@ body {
 .wt-50 {
 	width: 50%;
 }
+.mrb-45 {
+	margin-bottom: 45px;
+}
 
 /* HEADER */
 .header{ 
-	background-color: aquamarine;
+	background-color: #fff;
 	padding: 0 20px;
 	position: fixed;
 	width: 100%;
@@ -56,13 +59,16 @@ body {
 }
 /* BANNER */
 .banner {
-	background: red;
+	background: #b4d0e7;
 	width: 100%;
 	padding-top: 80px;
 }
 
 .banner__title {
 	font-size: 70px;
+}
+.banner__txt {
+	max-width: 370px;
 }
 .banner__main {
 width: 100%;
@@ -84,4 +90,7 @@ width: 100%;
 .banner__button {
 	margin: 30px 0 14px 0;
 	display: inline-block;
+}
+.fa-arrow-down {
+	font-size: 40px;
 }
