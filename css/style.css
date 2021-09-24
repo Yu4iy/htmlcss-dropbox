@@ -41,6 +41,9 @@ body {
 .mrt-50 {
 	margin-top: 50px;
 }
+.mrt-150 {
+	margin-top: 150px;
+}
 .container {
 	max-width: 1080px;
 	margin: 0 auto;
@@ -207,4 +210,22 @@ hr {
 }
 .team__button {
 	padding: 10px 55px ;
+}
+/* TEAM */
+
+.contact__img {
+	float: left;
+}
+.contact__info {
+	float: right;
+	padding: 50px;
+}
+.contact__txt {
+	line-height: 35px;
+}
+.contact__button {
+	padding: 10px 20px;
+	border: 1px solid black;
+	color: black;
+	text-decoration: none;
 }
