@@ -13,6 +13,10 @@ body {
 	text-decoration: none;
 	color: #fff;
 }
+.midle-btn{
+	display: inline-block;
+	padding: 10px 35px;
+}
 .cont-head-foot {
 	margin: 0 auto;
 	max-width: 1270px;
@@ -31,10 +35,12 @@ body {
 .mrx-60{
 	margin: 0 60px 0 50px;
 }
+.mrb-30 {
+	margin-bottom: 30px;
+}
 .container {
 	max-width: 1080px;
 	margin: 0 auto;
-	background: red;
 }
 /* HEADER */
 .header{ 
@@ -108,10 +114,57 @@ body {
 	font-size: 40px;
 }
 
-.columns__colon {
+.colon {
 	width: 29.933%;
-	float: right;
+	float: left;
+	border: 2px solid #d0d0d3;
+	padding-bottom: 120px;
+}
+.colon__inner {
+	padding: 0 30px 0 30px;
+}
+
+.colon__header {
+	border-bottom: 2px solid #d0d0d3;
 	text-align: center;
-	background: chartreuse;
-	border: 2px solid black;
+	line-height: 40px;
+}
+.colon__top-title {
+	margin-top: 30px;
+	font-size: 25px;
+}
+
+.colon__price {
+	font-weight: 700;
+	line-height: 40px;
+}
+.colon__date {
+	color: #667583;
+}
+.collon__special{
+	margin: 50px 0 50px 0;
+}
+.collon__special li{
+	padding: 0 0 20px 0 ;
+	list-style: none;
+}
+.collon__special li:last-child{
+	padding: 0 ;
+}
+.colon__buy {
+	margin: 30px 0 30px 0;
+}
+.colon__buy a{
+	color: #0061ff;
+}
+hr {
+	max-width:50px ;
+	
+}
+.colon__bottom li {
+	margin-bottom: 30px;
+	list-style: none;
+}
+.colon__bottom li i{
+	color: #0061ff;  /* FIX BEFORE */
 }
