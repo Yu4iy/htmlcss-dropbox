@@ -28,7 +28,14 @@ body {
 .mrb-45 {
 	margin-bottom: 45px;
 }
-
+.mrx-60{
+	margin: 0 60px 0 50px;
+}
+.container {
+	max-width: 1080px;
+	margin: 0 auto;
+	background: red;
+}
 /* HEADER */
 .header{ 
 	background-color: #fff;
@@ -66,12 +73,13 @@ body {
 
 .banner__title {
 	font-size: 70px;
+	margin: 70px 0 40px 0;
 }
 .banner__txt {
 	max-width: 370px;
 }
 .banner__main {
-width: 100%;
+	width: 100%;
 
 }
 .banner__info {
@@ -93,4 +101,17 @@ width: 100%;
 }
 .fa-arrow-down {
 	font-size: 40px;
+}
+/* COLUMNS */
+.columns__title {
+	margin-top: 200px;
+	font-size: 40px;
+}
+
+.columns__colon {
+	width: 29.933%;
+	float: right;
+	text-align: center;
+	background: chartreuse;
+	border: 2px solid black;
 }
