@@ -1,0 +1,33 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.header{ 
+	background-color: aquamarine;
+}
+.header__left{
+	background-color: blue;
+	display: inline-block;
+	width: 50%;
+	line-height: 100px;
+}
+.header__right{
+	background-color: red;
+	display: inline-block;
+	width: 50%;
+	margin: 0 0 0 -5px;
+	text-align: end;
+	line-height: 100px;
+
+}
+.header__row li {
+	display: inline-block;
+}
+.header__row li img {
+	vertical-align: middle;
+}
