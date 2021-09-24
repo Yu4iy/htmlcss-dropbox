@@ -13,6 +13,18 @@ body {
 	text-decoration: none;
 	color: #fff;
 }
+.cont-head-foot {
+	margin: 0 auto;
+	max-width: 1270px;
+}
+.clearfix::after {
+	content:"";
+	display: table;
+	clear: both;
+}
+.wt-50 {
+	width: 50%;
+}
 
 /* HEADER */
 .header{ 
@@ -23,12 +35,10 @@ body {
 }
 .header__left{
 	display: inline-block;
-	width: 50%;
 	line-height: 80px;
 }
 .header__right{
 	display: inline-block;
-	width: 50%;
 	margin: 0 0 0 -50px;
 	text-align: end;
 	line-height: 80px;
@@ -43,4 +53,35 @@ body {
 }
 .header__row li img {
 	vertical-align: middle;
+}
+/* BANNER */
+.banner {
+	background: red;
+	width: 100%;
+	padding-top: 80px;
+}
+
+.banner__title {
+	font-size: 70px;
+}
+.banner__main {
+width: 100%;
+
+}
+.banner__info {
+	width: 33%;
+	float: left;
+}
+.banner__img {
+	width: 67%;
+	float: right;
+	margin-bottom: -75px;
+}
+.banner__img img{
+	width: 100%;
+	
+}
+.banner__button {
+	margin: 30px 0 14px 0;
+	display: inline-block;
 }
