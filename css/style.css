@@ -38,6 +38,9 @@ body {
 .mrb-30 {
 	margin-bottom: 30px;
 }
+.mrt-50 {
+	margin-top: 50px;
+}
 .container {
 	max-width: 1080px;
 	margin: 0 auto;
@@ -63,6 +66,9 @@ body {
 .header__row li {
 	display: inline-block;
 	margin-right: 40px;
+}
+.header__row li a{
+	text-decoration: none;
 }
 .header__row li:last-child {
 	margin-right: 0px;
@@ -110,8 +116,9 @@ body {
 }
 /* COLUMNS */
 .columns__title {
-	margin-top: 200px;
+	margin: 200px 0 70px 0;
 	font-size: 40px;
+
 }
 
 .colon {
@@ -167,4 +174,37 @@ hr {
 }
 .colon__bottom li i{
 	color: #0061ff;  /* FIX BEFORE */
+}
+/* TEAM */
+.team__top {
+	text-align: center;
+	line-height: 43px;
+	border: 2px solid #d0d0d3;
+}
+.team__bottom {
+	padding: 30px 35px;
+	border: 2px solid #d0d0d3;
+
+}
+.team__bottom-l{
+	float: left;
+	width: 70%;
+}
+.team__title{
+	font-size: 25px;
+}
+.team__subtitle{
+	font-size: 15px;
+	margin: 20px 0 30px 0;
+}
+.team__txt {
+	font-size: 14px;
+}
+.team__bottom-r{
+	float: right;
+	width: 30%;
+	text-align: right;
+}
+.team__button {
+	padding: 10px 55px ;
 }
