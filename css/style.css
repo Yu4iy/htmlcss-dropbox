@@ -6,27 +6,40 @@
 body {
 	font-family: 'Open Sans', sans-serif;
 }
+/* UTILITIES */
+.btn {
+	padding: 10px 20px;
+	background-color: #0061ff;
+	text-decoration: none;
+	color: #fff;
+}
 
+/* HEADER */
 .header{ 
 	background-color: aquamarine;
+	padding: 0 20px;
+	position: fixed;
+	width: 100%;
 }
 .header__left{
-	background-color: blue;
 	display: inline-block;
 	width: 50%;
-	line-height: 100px;
+	line-height: 80px;
 }
 .header__right{
-	background-color: red;
 	display: inline-block;
 	width: 50%;
-	margin: 0 0 0 -5px;
+	margin: 0 0 0 -50px;
 	text-align: end;
-	line-height: 100px;
+	line-height: 80px;
 
 }
 .header__row li {
 	display: inline-block;
+	margin-right: 40px;
+}
+.header__row li:last-child {
+	margin-right: 0px;
 }
 .header__row li img {
 	vertical-align: middle;
