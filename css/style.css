@@ -35,14 +35,24 @@ body {
 .mrx-60{
 	margin: 0 60px 0 50px;
 }
+.mrtb-100-50 {
+	margin: 150px 0 100px 0;
+}
+
 .mrb-30 {
 	margin-bottom: 30px;
+}
+.mrb-120 {
+	margin-bottom: 120px;
 }
 .mrt-50 {
 	margin-top: 50px;
 }
 .mrt-150 {
 	margin-top: 150px;
+}
+.title {
+	font-size: 40px;
 }
 .container {
 	max-width: 1080px;
@@ -228,4 +238,14 @@ hr {
 	border: 1px solid black;
 	color: black;
 	text-decoration: none;
+}
+/* INFO  */
+.column {
+	width: 29.933%;
+	float: left;
+	
+}
+.column img {
+	width: 100%;
+	
 }
