@@ -323,36 +323,26 @@ hr {
 .clients__block img{
 	filter: invert(100);
 }
-
-
-
-/* .clients__list {
+/* BANNER */
+.banner-bottom{
+	background-color:#b4d0e7;
+	padding: 120px 0;
 }
-.clients__block {
-	width: 30%;
-	background: yellow;
+.banner-bottom__title{
 	float: left;
-
-}
-.clients__block-midle {
-	width: 40%;
-	background-color: red;
-	float: left;
-}
-.client__firts {
-	float: left;
-	background: royalblue;
-	width: 200px;
-	height: 200px;
-}
-.client__second {
+	width: 63.3%;
+	max-width: 565px;
+	font-size: 40px;
+	color: #61082b;
+} 
+.banner-bottom__btn{
 	float: right;
-	background: rosybrown;
-	max-width: 200px;
-	max-height: 200px;
-	
-
+	width: 36.7%;
+	line-height: 60px;
 }
-.clients__block img {
-	width: 50%;
-} */
+.banner-bottom__btn a{
+	background: #fff;
+	padding: 10px 65px;
+	text-decoration: none;
+	color: black;
+}
