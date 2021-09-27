@@ -243,8 +243,6 @@ hr {
 }
 .colon__bottom li {
 	margin-bottom: 30px;
-	margin-left: 20px;
-	text-indent: -10px;
 
 }
 .colon__bottom li i{
@@ -445,13 +443,29 @@ hr {
 .question h3{
 	font-size: 40px;
 }
-.question__row {
+.question__wraper {
 	border-top: 2px solid #d0d0d3;
-	font-weight: 700;
-	line-height: 80px;
+
 }
-.question__row:last-child {
+
+.question__row {
+	font-weight: 700;
+	line-height: 40px;
+	display: inline-block;
+	width: 95%;
+}
+.question__row:hover {
+
+}
+.question__wraper:last-child {
 	border-bottom: 2px solid #d0d0d3;
+}
+.question__txt {
+	display: none;
+}
+.question__row:hover ~ .question__txt {
+	display: inline-block;
+	background-color: #0061ff;
 }
 
 /* FOOTER */
@@ -480,4 +494,8 @@ hr {
 .lang-change {
 	color: lightslategray;
 	
+}
+.arrow {
+	display: inline-block;
+	width: 4%;
 }
