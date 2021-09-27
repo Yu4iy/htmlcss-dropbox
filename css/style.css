@@ -242,10 +242,14 @@ hr {
 }
 .colon__bottom li {
 	margin-bottom: 30px;
+	margin-left: 20px;
+	text-indent: -10px;
+
 }
 .colon__bottom li i{
 	color: #0061ff;  /* FIX BEFORE */
 }
+
 /* TEAM */
 .team__top {
 	text-align: center;
