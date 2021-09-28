@@ -44,7 +44,7 @@ a {
 	margin-bottom: 20px;
 }
 .mrx-60{
-	margin: 0 60px 0 50px;
+	margin: 0 55px 0 55px;
 }
 .mrtb-100-50 {
 	margin: 150px 0 100px 0;
@@ -253,6 +253,7 @@ hr {
 }
 
 /* TEAM */
+
 .team__top {
 	text-align: center;
 	line-height: 43px;
@@ -439,9 +440,7 @@ hr {
 	background-color: rgb(223, 223, 223);
 	transition: 0.1s linear ;
 }
-.question {
-	padding: 130px 0;
-}
+
 .question h3{
 	font-size: 40px;
 }
@@ -450,20 +449,23 @@ hr {
 
 }
 
-.question {
-	padding: 130px 0;
-}
+
 .question h3{
 	font-size: 40px;
 }
 .question__wraper {
 	border-top: 2px solid #d0d0d3;
+
+}
+.question__wraper:last-child {
+	border-bottom: 2px solid #d0d0d3;
 
 }
 
 .question__row{
 	position: relative;
-	line-height: 65px;
+	line-height: 90px;
+	font-weight: 700;
 }
 
 .question__txt {
@@ -476,7 +478,8 @@ hr {
 	padding: 0;
 	height: auto;
 	overflow: hidden;
-
+	
+	
 }
 .down{
 	opacity: 0;
