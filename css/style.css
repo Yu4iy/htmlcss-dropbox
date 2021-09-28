@@ -49,10 +49,14 @@ a {
 .mrtb-100-50 {
 	margin: 150px 0 100px 0;
 }
+.mrtb-200-70{
+	margin: 200px 0 70px 0;
+}
 
 .mrb-30 {
 	margin-bottom: 30px;
 }
+
 .mrb-120 {
 	margin-bottom: 120px;
 }
@@ -188,8 +192,8 @@ a {
 }
 
 /* COLUMNS */
-.columns__title {
-	margin: 200px 0 70px 0;
+.title {
+	
 	font-size: 40px;
 
 }
@@ -209,8 +213,7 @@ a {
 	text-align: center;
 	line-height: 40px;
 }
-.colon__top-title {
-	margin-top: 30px;
+.colon-title {
 	font-size: 25px;
 }
 
@@ -221,13 +224,13 @@ a {
 .colon__date {
 	color: #667583;
 }
-.collon__special{
+.special{
 	margin: 50px 0 50px 0;
 }
-.collon__special li{
+.special li{
 	padding: 0 0 20px 0 ;
 }
-.collon__special li:last-child{
+.special li:last-child{
 	padding: 0 ;
 }
 .colon__buy {
@@ -267,10 +270,7 @@ hr {
 .team__title{
 	font-size: 25px;
 }
-.team__subtitle{
-	font-size: 15px;
-	margin: 20px 0 30px 0;
-}
+
 .team__txt {
 	font-size: 14px;
 }
@@ -286,6 +286,7 @@ hr {
 
 .contact__img {
 	float: left;
+	z-index: 3;
 }
 .contact__info {
 	float: right;
@@ -306,6 +307,7 @@ hr {
 	background-color: #95afda;
 	transition-delay: 0.5s;
 }
+
 
 .contact__button:hover .top-line{
 	position: absolute;
@@ -448,25 +450,53 @@ hr {
 
 }
 
-.question__row {
-	font-weight: 700;
-	line-height: 40px;
-	display: inline-block;
-	width: 95%;
+.question {
+	padding: 130px 0;
 }
-.question__row:hover {
+.question h3{
+	font-size: 40px;
+}
+.question__wraper {
+	border-top: 2px solid #d0d0d3;
 
 }
-.question__wraper:last-child {
-	border-bottom: 2px solid #d0d0d3;
+
+.question__row{
+	position: relative;
+	line-height: 65px;
 }
+
 .question__txt {
-	display: none;
+	padding: 0;
+	height: 0;
+	overflow: hidden;
 }
+
 .question__row:hover ~ .question__txt {
-	display: inline-block;
-	background-color: #0061ff;
+	padding: 0;
+	height: auto;
+	overflow: hidden;
+
 }
+.down{
+	opacity: 0;
+}
+.question__row:hover  .up {
+	opacity: 0;
+}
+.question__row:hover  .down {
+	
+	opacity: 100;
+
+}
+.up-down i {
+	position: absolute;
+	right: 5px;
+	top: 50%;
+	font-size: 25px;
+	transform: translatey(-50%);
+}
+
 
 /* FOOTER */
 .footer__column {
