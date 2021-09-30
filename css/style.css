@@ -210,15 +210,64 @@ a {
 	
 }
 .banner__button {
+	position: relative;
+	width: 100%;
+}
+.demo {
+	background: #2010ac;
+	width: 200px;
+	padding:  0 0 0 50px;
+	text-align: center;
+	height: 60px;
+	position: absolute;
+	line-height: 60px;
+	font-size: 25px;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	transition: linear 1s;
 	display: inline-block;
 }
-
+.demo__ground {
+	background: #3c19d8;
+	position: absolute;
+	width: 100px;
+	height: 60px;
+	padding: 10px 0;
+	text-align: center;
+	line-height: 40px;
+	top: 0;
+	left: 100px;
+	z-index: 1;
+	display: inline-block;
+	
+}
+.fa-cog {
+	position: absolute;
+	top: 40%;
+	left: 2%;
+	z-index: 3;
+	font-size: 30px;
+	transition: linear 1s;
+}
+.banner__button:hover .fa-cog {
+	animation: circle 2s;
+}
+@keyframes circle {
+	0%   {transform: rotate(0deg);}
+	100% {transform: rotate(360deg);}
+}
+.banner__button:hover .demo {
+	width: 120px; ;
+}
 
 .fa-arrow-down {
 	animation: arow 1s infinite alternate;
 	font-size: 40px;
 	
 }
+
+
 @keyframes arow {
 	0%   {transform: translatey(0);}
 	100% {transform: translatey(-15px);}
